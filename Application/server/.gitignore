@@ -1,0 +1,22 @@
+# gitignore for server side code of project
+
+# Compiled class files
+/*.class
+
+# IntellJ .idea directory
+/.idea
+
+# Output directory with class files
+/out
+
+# Iml file
+/*.iml
+
+# Extra maven directories
+/target
+
+/.apt_generated/
+
+/logs
+
+!/src/main/resources/logback-spring.xml
